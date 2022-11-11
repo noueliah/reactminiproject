@@ -1,17 +1,12 @@
 import './App.css';
-import {
-  BrowserRouter as Router,
-  Link
-} from 'react-router-dom';
+import { BrowserRouter as Router, Link } from 'react-router-dom';
 import RoutesComponent from './components/RoutesComponent';
 
 function App() {
   return (
     <Router>
       <div className="App">
-        <h1>
-          Hi, this is a React project.
-        </h1>
+        <h1>Hi, this is a React project.</h1>
         <p>You are reading a paragraph within the App component.</p>
         <p>Here are some links:</p>
         <ul className="App-link-li">
