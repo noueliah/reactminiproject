@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
 import { StateService } from '../services/StateService';
 
 /**
@@ -38,10 +37,6 @@ function HomePage() {
         <br />
         <div>Render Time: {timestamp}</div>
       </section>
-
-      <p>
-        Go to <Link to="../components/login">Login</Link> page.
-      </p>
     </div>
   );
 }
